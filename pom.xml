@@ -35,7 +35,7 @@
     </dependencies>
 
     <build>
-        <finalName>redis-monitor.jar</finalName>
+        <finalName>redis-monitor</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
