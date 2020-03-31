@@ -6,6 +6,10 @@ redis monitor 分析工具，可以通过采样列出运行时使用频率最高
 git clone git@github.com:zxbu/redis-monitor-tools.git
 mvn package
 ```
+或者直接下载
+```bash
+wget https://github.com/zxbu/redis-monitor-tools/releases/download/1.0.0/redis-monitor.jar
+```
 ### 2. 运行
 ```bash
 java -jar redis-monitor.jar --redis.command.servers=127.0.0.1:6378,127.0.0.1:6379  --redis.command.numbers=1000 --redis.command.top=20
@@ -45,6 +49,10 @@ total : 100
 ```bash
 git clone git@github.com:zxbu/redis-monitor-tools.git
 mvn package
+```
+or download
+```bash
+wget https://github.com/zxbu/redis-monitor-tools/releases/download/1.0.0/redis-monitor.jar
 ```
 ### 2. Run
 ```bash
