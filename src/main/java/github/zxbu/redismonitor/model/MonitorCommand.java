@@ -25,6 +25,8 @@ public class MonitorCommand {
 
     private String args;
 
+    private Long argsLength;
+
     private String command;
 
     public String getId() {
@@ -37,6 +39,14 @@ public class MonitorCommand {
 
     public String getServer() {
         return server;
+    }
+
+    public Long getArgsLength() {
+        return argsLength;
+    }
+
+    public void setArgsLength(Long argsLength) {
+        this.argsLength = argsLength;
     }
 
     public void setServer(String server) {
